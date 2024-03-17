@@ -105,6 +105,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+l1=eza -1 --icons
+
 # Start tmux by default in WezTerm
 if [[ "$TERM_PROGRAM" == "WezTerm" ]]; then
   exec tmux attach 
